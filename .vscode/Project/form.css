@@ -1,0 +1,93 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+
+}
+#cu{
+    font-size: 30px;
+    color: rgb(194, 196, 105);
+}
+#contactus{
+    border: 1px solid black;
+    height:350px;
+    width: 50%;
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 300px;
+    margin-right: 200px;
+    background-image: url(https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg?cs=srgb&dl=pexels-pixabay-531880.jpg&fm=jpg);
+    
+    
+   
+}
+.input1{
+    width: 150px;
+    height: 40px;
+    margin-top: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: 1px solid black;
+
+    
+}
+#nl{
+    color: rgb(194, 196, 105);
+    font-style: italic;
+    
+
+}
+#pl{
+    color: rgb(194, 196, 105);
+    font-style: italic;
+
+}
+#fl{
+    color: rgb(194, 196, 105);
+    font-style: italic;
+    
+
+}
+.input2{
+    width: 150px;
+    height: 40px;
+    margin-top: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: 1px solid black;
+    
+}
+.input3{
+    width: 150px;
+    height: 70px;
+    margin-top: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: 1px solid black;
+}
+#submit{
+    width:100px;
+    height:40px;
+    margin-top: 25px;
+    padding-left: 20px;
+    padding-right: 18px;
+    border-radius:10px;
+
+   
+}
+#sub{
+    text-align: left;
+    
+    padding-left: 80px;
+
+}
+
+#form{
+    text-align: left;
+    padding-left: 260px;
+}
+#c{
+    text-align: left;
+    background-color: black;
+    color:white;
+}

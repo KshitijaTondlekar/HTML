@@ -1,0 +1,38 @@
+#parent{
+    border: 1px solid black;
+    height: 200px;
+    width: 200px;
+    margin: 200px auto;
+    /* transform: translate(400px,200px); */
+    /* transition: transform 10%, background-color 10s; */
+    transition: all 3s linear 1s;
+
+}
+#parent:hover{
+    transform: skew(200deg,222deg);
+    background-color: brown;
+    
+    
+    
+}
+#a{
+    border: 1px solid black;
+    height: 200px;
+    width: 200px;
+    margin:200px auto;
+    background-color:aqua;
+    
+    
+}
+#b{
+    border: 1px solid black;
+    height:100px;
+    width: 100px;
+    margin: 100px auto;
+    transition: all 3s linear 2s;
+}
+
+#b:hover{
+    transform: scale(2,2);
+    background-color:blueviolet;
+}

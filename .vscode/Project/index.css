@@ -1,0 +1,350 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+
+}
+nav {
+    border: 1px solid black;
+    width: 100%;
+    height: 70%;
+    display: flex;
+    background-color: rgb(165, 43, 43);
+}
+ul {
+    border: 1px,solid,black;
+    display: flex;
+    height: 70px;
+    width: 50%;
+    
+    /* justify-items: center; */
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+}
+li a{
+    text-decoration: none;
+    color: black;
+}
+#logo {
+    /* border: 1px solid black; */
+    width: 25%;
+    height:70px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#search {
+    /* border: 1px solid black; */
+    width: 25%;
+    height:70px;
+    display:flex;
+    justify-content: center;
+    /* justify-items: center; */
+    align-items: center;
+}
+#logo-img{
+    border: 1px solid black;
+    height: 60px;
+    width: 60px;
+    border-radius: 30px;
+}
+section{
+    border: 1px,solid,black;
+    width: 100%;
+    height: 490px;
+    display: flex;
+}
+#first{
+    /* border: 1px,solid,black; */
+    width: 50%;
+    height: 490px;
+    background-color:rgb(165, 43, 43); 
+}
+#second{
+    /* border: 1px,solid,black; */
+    width: 50%;
+    height: 490px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(165, 43, 43);
+}
+#para{
+    /* border: 1px,solid,black; */
+    width: 500px;
+    height: 300px;
+    margin-left:200px ;
+    margin-top: 80px;
+    text-align: left;
+    background-color: rgb(165, 43, 43);
+    color: black;
+
+}
+#para:first-line{
+    color: black;
+    font-size: 40px;
+}
+
+#btn1{
+    border: 1px solid rgb(229, 147, 147);
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    margin-left: 200px;
+    margin-top: 30px;
+    background-color: rgb(172, 99, 99);
+    
+    color: black;
+    
+}
+#btn1 a{
+    text-decoration: none;
+    color: black;
+}
+#btn2{
+    border: 1px solid rgb(229, 147, 147);
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    margin-left: 100px;
+    /* margin-top: 30px; */
+    background-color: rgb(172, 99, 99);
+    color: black;
+   
+}
+#btn2 a{
+    text-decoration: none;
+    color: black;
+}
+#secimg{
+    width: 300px;
+    height:300px;
+    border-radius: 150px;
+    margin: auto;
+}
+#secimg1{
+    margin: auto;
+    width: 300px;
+    height:300px;
+    border-radius: 150px;
+}
+
+#services{
+    /* border: 1px solid black; */
+    height: 50px;
+    width: 100%;
+    background-color: aqua;
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+    text-align: center;
+    text-decoration-line: underline;
+}
+#exp{
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 300px;
+    display: flex;
+    background-color: aqua;
+}
+#expimg{
+    /* border: 1px solid black; */
+    width:50%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#eimg{
+    height: 250px;
+    width: 250px;
+    margin-left: 100px;
+    border-radius: 100px;
+    
+    
+    
+
+}
+#exptxt{
+    width:50%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#etxt{
+    height: 250px;
+    width: 450px;
+    text-align:left;
+    margin-top: 100px;
+    
+}
+/* part2 */
+#exp1{
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 300px;
+    display: flex;
+    background-color: rgb(50, 141, 141);
+}
+#expimg1{
+    /* border: 1px solid black; */
+    width:50%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#eimg1{
+    height: 250px;
+    width: 250px;
+    margin-left: 100px;
+    border-radius: 100px;
+
+}
+#exptxt1{
+    width:50%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#etxt1{
+    height: 250px;
+    width: 450px;
+    text-align: left;
+    margin-left: 100px;
+    margin-top: 100px;
+    
+}
+
+/* part3 */
+#exp2{
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 300px;
+    display: flex;
+    background-color: rgb(69, 202, 202);
+}
+#expimg2{
+    /* border: 1px solid black; */
+    width:50%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#eimg2{
+    height: 250px;
+    width: 250px;
+    margin-left: 100px;
+    border-radius: 100px;
+
+}
+#exptxt2{
+    width:50%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#etxt2{
+    height: 250px;
+    width: 450px;
+    text-align: left;
+    margin-top: 100px;
+    
+    
+}
+
+
+
+#cu{
+    font-size: 30px;
+    color: rgb(83, 8, 45);
+}
+#contactus{
+    border: 1px solid black;
+    height:350px;
+    width: 100%;
+    text-align: center;
+    /* margin-top: 100px; */
+    /* margin-left: 300px;
+    margin-right: 200px; */
+    background-image: url(https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg?cs=srgb&dl=pexels-pixabay-531880.jpg&fm=jpg);
+    
+    
+   
+}
+.input1{
+    width: 150px;
+    height: 40px;
+    margin-top: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: 1px solid black;
+
+    
+}
+#nl{
+    color: rgb(194, 196, 105);
+    font-style: italic;
+    
+
+}
+#pl{
+    color: rgb(194, 196, 105);
+    font-style: italic;
+
+}
+#fl{
+    color: rgb(194, 196, 105);
+    font-style: italic;
+    
+
+}
+.input2{
+    width: 150px;
+    height: 40px;
+    margin-top: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: 1px solid black;
+    
+}
+.input3{
+    width: 150px;
+    height: 70px;
+    margin-top: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: 1px solid black;
+}
+#submit{
+    width:100px;
+    height:40px;
+    margin-top: 25px;
+    padding-left: 20px;
+    padding-right: 18px;
+    border-radius:10px;
+
+   
+}
+#sub{
+    text-align: left;
+    
+    padding-left: 100px;
+
+}
+
+#form{
+    text-align: left;
+    padding-left: 450px;
+}
+#c{
+    text-align: left;
+    background-color: black;
+    color:white;
+}

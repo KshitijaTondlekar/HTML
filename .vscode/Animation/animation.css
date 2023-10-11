@@ -1,0 +1,86 @@
+.parent{
+    box-sizing: border-box;
+    border: 2px solid ;
+    background-color: rgb(80, 161, 161);
+
+    height: 250px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+/* .a{
+    box-sizing: border-box;
+    border-radius: 50%;
+    background-color: blueviolet;
+    height: 90%;
+    width: 12%;
+    border: 2px solid black;
+    text-align: center;
+    animation: circle-rotate;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+
+}
+.b{
+    box-sizing: border-box;
+    border-radius: 50%;
+    background-color: blueviolet;
+    height: 90%;
+    width: 12%;
+    border: 2px solid black;
+    text-align: center;
+    animation: circle-rotate;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: 2;
+    animation-direction: alternate; */
+
+/* } */
+.parent div{
+    box-sizing: border-box;
+    border-radius: 50%;
+    background-color: blueviolet;
+    height: 90%;
+    width: 12%;
+    border: 2px solid black;
+    text-align: center;
+    animation: circle-rotate;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+.parent div p{
+    box-sizing: border-box;
+    margin: 35% 0px;
+    font-size: 0px;
+    animation: font-pop;
+    animation-duration: 500ms;
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+    
+}
+
+@keyframes font-pop{
+    0%{
+        font-size: 0px;
+    }
+    95%{
+        font-size: 60px;
+    }
+    100%{
+        font-size: 57px;
+    }
+}
+
+@keyframes circle-rotate{
+    0%{
+        transform: rotateY(0deg);
+    }
+    100%{
+        transform: rotateY(360deg);
+    }
+}

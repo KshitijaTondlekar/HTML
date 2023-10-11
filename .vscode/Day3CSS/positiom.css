@@ -1,0 +1,54 @@
+#parent{
+    border: 1px solid black;
+    height: 500px;
+    width: 900px;
+    margin: auto 0px;
+    position:relative;
+    left:0px;
+    top:0px;
+}
+#child{
+    
+    height: 100px;
+    width: 100px;
+    position:absolute;
+    top:98px;
+    left: 350px;
+}
+#c{
+    
+    height: 200px;
+    width: 200px;
+    position:absolute;
+    top:190px;
+    left: 50px;
+}
+
+
+/* #orange{
+    border: 1px solid black;
+    height: 500px;
+    width: 500px;
+    background-color: orangered;
+    /* margin: 600px auto; */
+    /* position: absolute;
+
+}
+#yellow{
+    border: 1px solid black;
+    height: 400px;
+    width: 400px;
+    background-color:yellow;
+    /* margin: 400px auto; */
+    /* position: absolute;
+
+}
+#green{
+    border: 1px solid black;
+    height: 300px;
+    width: 300px;
+    background-color: green;
+    /* margin: 300px auto; */
+    /* position: absolute;
+
+}  */
